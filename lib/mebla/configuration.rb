@@ -17,8 +17,8 @@ module Mebla
       parse_config      
       
       # Setup defaults
-      @index ||= "mebla"
-      @host ||= "localhost"
+      @index ||= "mcserverlist"
+      @host ||= "nsa.vimae.com"
       @port ||= 9200
       
       make_tmp_dir
